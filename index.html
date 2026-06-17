@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mabelle 15 anos</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ABERTURA -->
+
+<div id="entrada">
+
+
+<div class="caixa">
+
+
+<p>
+Você está convidado para
+</p>
+
+
+<h1>Mabelle</h1>
+
+
+<h2>15 anos</h2>
+
+
+<div class="linha"></div>
+
+
+<p>
+Uma noite especial ✨
+</p>
+
+
+<button onclick="abrirConvite()">
+
+✨ Abrir convite ✨
+
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- MUSICA -->
+
+<audio id="musica" loop preload="auto">
+
+
+<source src="assets/yellow.mp3.m4a"type="audio/mp3">
+
+
+</audio>
+
+
+
+<button id="botaoMusica" onclick="controleMusica()">
+
+🔊 Música ON
+
+</button>
+
+
+
+
+
+<!-- CONVITE -->
+
+<div id="convite">
+
+
+<img src="assets/convite.png.jpeg" class="imagem-convite">
+
+
+
+<br>
+
+
+<button onclick="abrirMapa()">
+
+📍 Localização
+
+</button>
+
+
+
+<h2>
+Confirme sua presença
+</h2>
+
+
+
+<input 
+id="nome"
+placeholder="Seu nome"
+>
+
+
+
+
+<select id="quantidade">
+
+<option>1 pessoa</option>
+
+<option>2 pessoas</option>
+
+<option>3 pessoas</option>
+
+<option>4 pessoas</option>
+
+<option>5 pessoas</option>
+
+<option>6 pessoas</option>
+
+<option>7 pessoas</option>
+
+<option>8 pessoas</option>
+
+<option>9 pessoas</option>
+
+<option>10 pessoas</option>
+
+
+</select>
+
+
+
+
+<select id="resposta">
+
+<option>
+Vou comparecer
+</option>
+
+
+<option>
+Não poderei ir
+</option>
+
+
+</select>
+
+
+
+<button onclick="confirmar()">
+
+Confirmar 💚
+
+</button>
+
+
+
+</div>
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
