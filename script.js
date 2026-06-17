@@ -5,7 +5,6 @@ document.getElementById("entrada")
 .style.display="none";
 
 
-
 document.getElementById("convite")
 .style.display="block";
 
@@ -15,50 +14,6 @@ let musica = document.getElementById("musica");
 
 
 musica.play();
-
-
-
-document.getElementById("botaoMusica")
-.style.display="block";
-
-
-}
-
-
-
-
-
-function controleMusica(){
-
-
-let musica =
-document.getElementById("musica");
-
-
-let botao =
-document.getElementById("botaoMusica");
-
-
-
-if(musica.paused){
-
-
-musica.play();
-
-
-botao.innerHTML="🔊 Música ON";
-
-
-}else{
-
-
-musica.pause();
-
-
-botao.innerHTML="🔇 Música OFF";
-
-
-}
 
 
 }
@@ -78,8 +33,6 @@ window.open(
 
 
 }
-
-
 
 
 
